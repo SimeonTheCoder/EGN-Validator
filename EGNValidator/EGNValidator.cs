@@ -66,6 +66,9 @@ namespace ValidatorForEGN
             if (birthDate.Year < 1900) month0 += 2;
             else if (birthDate.Year >= 2000) month0 += 4;
 
+            if (!ranges.ContainsKey(city))
+                city = "Unknown";
+
             int lowerBound = ranges[city].Item1;
             int upperBound = ranges[city].Item2;
 

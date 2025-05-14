@@ -19,10 +19,6 @@ namespace ValidatorForEGN
                     break;
 
                 case 3:
-
-                    break;
-
-                case 4:
                     return -1;
 
                 default:
@@ -41,7 +37,6 @@ namespace ValidatorForEGN
             string[] menuModeSelectOptions = new[]{
                 "Validate EGN",
                 "Generate all possible EGN",
-                "Extract data from EGN",
                 "Quit"
             };
 
